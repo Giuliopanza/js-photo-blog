@@ -27,7 +27,10 @@ fetch("https://lanciweb.github.io/demo/api/pictures/", { method: "GET" })
         data.forEach(element => {
     
             row.innerHTML += `
-            <div class="col bg-white">
+            <div class="col-lg-3 col-md-5 col-sm-12 m-2 p-2 bg-white">
+                <div class="d-flex justify-content-center align-items-center">
+                    <button class="btn1"></button>
+                </div>
                 <img src="${element.url}" alt="immagine">
                 <h3>${element.title}</h3>
                 <span>${element.date}</span>
