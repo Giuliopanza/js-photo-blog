@@ -15,18 +15,10 @@ body{
 	background-image: url(./img/cork.png);
 }
 
-img{
+#imgcard{
 	width: 100%;
 }
 
-.btn1{
-	background: none;
-	background-image: url(./img/pin.svg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 2.5rem;
-	height: 2.5rem;
-	border-radius: 50%;
-
+#imgover{
+	width: 50%;
 }
