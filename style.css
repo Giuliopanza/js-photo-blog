@@ -15,10 +15,18 @@ body{
 	background-image: url(./img/cork.png);
 }
 
+.col-lg-3{
+	cursor: pointer;
+}
+
 #imgcard{
 	width: 100%;
 }
 
 #imgover{
-	width: 50%;
+	width: 25%;
+}
+
+.position-fixed{
+	background-color: rgba(0, 0, 0, 0.8);
 }
